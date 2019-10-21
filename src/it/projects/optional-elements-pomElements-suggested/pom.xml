@@ -49,7 +49,7 @@
     <defaultGoal>verify</defaultGoal>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>net.sourceforge.openutils</groupId>
         <artifactId>flatten-maven-plugin</artifactId>
         <configuration>
           <pomElements>

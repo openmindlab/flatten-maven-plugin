@@ -12,7 +12,7 @@
     <defaultGoal>verify</defaultGoal>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>net.sourceforce.openutils</groupId>
         <artifactId>flatten-maven-plugin</artifactId>
         <configuration>
           <flattenMode>oss</flattenMode>

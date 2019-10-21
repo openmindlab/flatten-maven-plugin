@@ -1,4 +1,4 @@
-# MojoHaus Flatten Maven Plugin (published)
+# MojoHaus Flatten Maven Plugin (forked and published)
 
 This is the just the [flatten-maven-plugin](http://www.mojohaus.org/flatten-maven-plugin/) being forked and published. Waiting for official release...
  
