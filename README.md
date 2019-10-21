@@ -1,6 +1,6 @@
-# MojoHaus Flatten Maven Plugin
+# MojoHaus Flatten Maven Plugin (published)
 
-This is the [flatten-maven-plugin](http://www.mojohaus.org/flatten-maven-plugin/).
+This is the just the [flatten-maven-plugin](http://www.mojohaus.org/flatten-maven-plugin/) being forked and published. Waiting for official release...
  
 [![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/mojohaus/versions-maven-plugin.svg?label=License)](http://www.apache.org/licenses/)
 [![Maven Central](https://img.shields.io/maven-central/v/org.codehaus.mojo/flatten-maven-plugin.svg?label=Maven%20Central)](http://search.maven.org/#search%7Cga%7C1%7Cflatten-maven-plugin)
@@ -13,7 +13,7 @@ This plugin generates a flattened version of your pom.xml and makes maven to ins
   <build>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>net.sourceforge.openutils</groupId>
         <artifactId>flatten-maven-plugin</artifactId>
         <!--<version>INSERT LATEST VERSION HERE</version>-->
         <executions>

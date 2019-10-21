@@ -26,10 +26,11 @@
     <artifactId>mojo-parent</artifactId>
     <version>40</version>
   </parent>
+  <groupId>net.sourceforge.openutils</groupId>
   <artifactId>flatten-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
   <name>Maven Flatten Plugin</name>
-  <version>1.2.0-SNAPSHOT</version>
+  <version>1.2.20191021-SNAPSHOT</version>
   <description>Plugin to generate flattened POM (reduced and resolved information required for consumers of maven repositories) and to use (install, sign, deploy) it instead of original pom.xml.</description>
   <inceptionYear>2014</inceptionYear>
   <prerequisites>
@@ -274,9 +275,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:https://github.com/mojohaus/flatten-maven-plugin.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/mojohaus/flatten-maven-plugin.git</developerConnection>
-    <url>https://github.com/mojohaus/flatten-maven-plugin</url>
+    <connection>scm:git:https://github.com/openmindlab/flatten-maven-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/openmindlab/flatten-maven-plugin.git</developerConnection>
+    <url>https://github.com/openmindlab/flatten-maven-plugin</url>
     <tag>flatten-maven-plugin-1.1.0</tag>
   </scm>
   <issueManagement>
@@ -285,7 +286,7 @@
   </issueManagement>
   <ciManagement>
     <system>travis</system>
-    <url>https://travis-ci.org/mojohaus/flatten-maven-plugin</url>
+    <url>https://travis-ci.org/openmindlab/flatten-maven-plugin</url>
   </ciManagement>
   <distributionManagement>
     <repository>
@@ -298,7 +299,7 @@
     </snapshotRepository>
     <site>
       <id>github</id>
-      <url>scm:git:ssh://git@github.com/mojohaus/flatten-maven-plugin.git</url>
+      <url>scm:git:ssh://git@github.com/openmindlab/flatten-maven-plugin.git</url>
     </site>
   </distributionManagement>
 </project>
