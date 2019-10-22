@@ -184,7 +184,7 @@
     </plugins>
   </build>
 
-  <profiles>
+<!--   <profiles>
     <profile>
       <id>run-its</id>
       <activation>
@@ -251,7 +251,7 @@
         </plugins>
       </build>
     </profile>
-  </profiles>
+  </profiles> -->
 
   <reporting>
     <plugins>
@@ -291,11 +291,11 @@
   <distributionManagement>
     <repository>
       <id>ossrh-staging</id>
-      <url>http://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
     <snapshotRepository>
       <id>ossrh-snapshots</id>
-      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
     </snapshotRepository>
     <site>
       <id>github</id>
