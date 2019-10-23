@@ -30,7 +30,7 @@
   <artifactId>flatten-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
   <name>Maven Flatten Plugin</name>
-  <version>1.2.0-SNAPSHOT</version>
+  <version>1.2.201910233-SNAPSHOT</version>
   <description>Plugin to generate flattened POM (reduced and resolved information required for consumers of maven repositories) and to use (install, sign, deploy) it instead of original pom.xml.</description>
   <inceptionYear>2014</inceptionYear>
   <prerequisites>
@@ -173,14 +173,6 @@
   </dependencies>
   
   <build>
-   <pluginManagement>
-    <plugins>
-     <plugin>
-          <artifactId>maven-release-plugin</artifactId>
-          <version>2.3.2</version>
-        </plugin>
-      </plugins>
-   </pluginManagement>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
